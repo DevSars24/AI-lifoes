@@ -1,5 +1,0 @@
-.env
-*.env
-# Other secrets
-*.key
-credentials.json
