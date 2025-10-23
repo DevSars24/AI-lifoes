@@ -163,3 +163,17 @@ ai-lifeos-backend/app/production/docker-compose*.yml
 ai-lifeos-backend/app/production/*.conf
 ai-lifeos-backend/app/production/*.sh
 ai-lifeos-backend/app/production/  # Uncomment to ignore ENTIRE folder (if no files should be committed)
+# Ignore all .env files (dev/prod/examples)
+**/*.env*
+ai-lifeos-backend/app/production/.env*
+
+# Ignore production Docker/config files with potential secrets
+ai-lifeos-backend/app/production/Dockerfile*
+ai-lifeos-backend/app/production/*.conf
+ai-lifeos-backend/app/production/*.sh
+ai-lifeos-backend/app/production/dockercompose*.yaml  # Note: Your file is .yaml, not .yml
+
+# Ignore logs and caches (already in your .gitignore, but reinforce)
+**/__pycache__/
+logs/
+*.log
