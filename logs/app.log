@@ -1,0 +1,1224 @@
+2025-10-22T12:55:31.215044+0530 | INFO | Config loaded successfully
+2025-10-22T12:55:32.378531+0530 | INFO | MongoDB connected
+2025-10-22T12:57:47.573420+0530 | INFO | Config loaded successfully
+2025-10-22T12:57:48.028754+0530 | INFO | MongoDB connected
+2025-10-22T12:59:36.036914+0530 | INFO | Config loaded successfully
+2025-10-22T12:59:36.464621+0530 | INFO | MongoDB connected
+2025-10-22T13:00:24.427859+0530 | INFO | Config loaded successfully
+2025-10-22T13:00:24.741486+0530 | INFO | MongoDB connected
+2025-10-22T13:00:25.434526+0530 | INFO | Starting up...
+2025-10-22T13:14:58.077477+0530 | INFO | Config loaded successfully
+2025-10-22T13:14:58.644551+0530 | INFO | MongoDB connected
+2025-10-22T13:14:59.414454+0530 | INFO | Starting up...
+2025-10-22T13:19:29.642222+0530 | INFO | Shutting down...
+2025-10-22T13:19:32.643722+0530 | INFO | Config loaded successfully
+2025-10-22T13:19:33.375903+0530 | INFO | MongoDB connected
+2025-10-22T13:19:34.157614+0530 | INFO | Starting up...
+2025-10-22T13:49:33.467167+0530 | INFO | Shutting down...
+2025-10-22T14:41:13.772615+0530 | INFO | Config loaded successfully
+2025-10-22T17:23:39.510402+0530 | INFO | Config loaded successfully
+2025-10-22T17:23:43.082202+0530 | INFO | MongoDB connected
+2025-10-22T17:24:06.989739+0530 | INFO | Config loaded successfully
+2025-10-22T17:24:07.640356+0530 | INFO | MongoDB connected
+2025-10-22T17:24:44.303833+0530 | INFO | Config loaded successfully
+2025-10-22T17:24:44.927286+0530 | INFO | MongoDB connected
+2025-10-22T17:24:45.738966+0530 | INFO | Starting up...
+2025-10-22T17:29:41.920055+0530 | INFO | Shutting down...
+2025-10-22T17:29:44.976457+0530 | INFO | Config loaded successfully
+2025-10-22T17:29:46.516720+0530 | INFO | MongoDB connected
+2025-10-22T17:29:47.309652+0530 | INFO | Starting up...
+2025-10-22T17:34:42.485009+0530 | INFO | Shutting down...
+2025-10-22T17:34:46.333808+0530 | INFO | Config loaded successfully
+2025-10-22T17:34:46.927051+0530 | INFO | MongoDB connected
+2025-10-22T17:34:47.695505+0530 | INFO | Starting up...
+2025-10-22T17:35:07.210873+0530 | INFO | Shutting down...
+2025-10-22T17:35:10.050261+0530 | INFO | Config loaded successfully
+2025-10-22T17:35:10.587142+0530 | INFO | MongoDB connected
+2025-10-22T17:35:11.317987+0530 | INFO | Starting up...
+2025-10-22T17:40:07.897460+0530 | INFO | Shutting down...
+2025-10-22T17:40:10.652759+0530 | INFO | Config loaded successfully
+2025-10-22T17:40:11.211874+0530 | INFO | MongoDB connected
+2025-10-22T17:40:12.027781+0530 | INFO | Starting up...
+2025-10-22T18:57:36.346805+0530 | INFO | Shutting down...
+2025-10-22T18:57:39.669373+0530 | INFO | Config loaded successfully
+2025-10-22T18:59:15.743309+0530 | INFO | Config loaded successfully
+2025-10-22T18:59:16.999499+0530 | INFO | MongoDB connected
+2025-10-22T18:59:17.808934+0530 | INFO | Starting up...
+2025-10-22T19:32:40.073334+0530 | INFO | Config loaded successfully
+2025-10-22T19:32:43.865753+0530 | INFO | MongoDB connected
+2025-10-22T19:32:44.870501+0530 | INFO | Starting up...
+2025-10-22T19:32:44.872518+0530 | INFO | Shutting down...
+2025-10-22T19:33:39.043823+0530 | INFO | Config loaded successfully
+2025-10-22T19:33:39.785472+0530 | INFO | MongoDB connected
+2025-10-22T19:33:40.614924+0530 | INFO | Starting up...
+2025-10-22T19:38:17.290318+0530 | ERROR | Gemini summarize_notes failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22T19:38:17.295542+0530 | ERROR | Unexpected Error: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'string', 'cont...ummary': '', 'tags': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing | Path: http://localhost:8000/api/notes/create
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x000001D2821E0680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x000001D282323D70>
+         │    └ <function Command.invoke at 0x000001D2821E0360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x000001D282323D70>
+           │   │      │    └ <function main at 0x000001D2823B1620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x000001D2821DB560>
+           └ <click.core.Context object at 0x000001D282323D70>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x000001D2823B1620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x000001D28222AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x000001D2822728E0>
+    └ <uvicorn.server.Server object at 0x000001D28238BE90>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001D282272980>
+           │       │   └ <uvicorn.server.Server object at 0x000001D28238BE90>
+           │       └ <function run at 0x000001D281ABBD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001D282179C40>
+           │      └ <function Runner.run at 0x000001D281B5A520>
+           └ <asyncio.runners.Runner object at 0x000001D282174A40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001D281B58180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001D282174A40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001D281C23CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001D281B59EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001D281AB80E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D2883A7BB0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D2883A7BB0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D2883A7BB0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D2883A7BB0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001D282233F80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001D282544DA0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001D282233F80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001D28836DAC0>
+          └ <fastapi.applications.FastAPI object at 0x000001D282544DA0>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001D28475B240>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001D28836DAC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+          │    │               │      │        │                     └ Headers({'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '60', 'sec-ch-ua-platform': '"Windows"', 'us...
+          │    │               │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001D28475B240>
+          │    │               │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │               └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function CORSMiddleware.simple_response at 0x000001D284490220>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+          │    │   │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0...
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001D28836E270>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D28836BCE0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001D28836DA90>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001D28836E270>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D28836BCE0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x000001D28836CE90>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001D28836DA90>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D28836BCE0>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x000001D2843EFF60>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D28836BCE0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001D28837DD00>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x000001D2883A7CB0>
+                     └ <function get_request_handler.<locals>.app at 0x000001D28837DBC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001D284415080>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'note': NoteCreate(title='string', content='string', tags=[])}
+                 │         └ <function create_note at 0x000001D28836AC00>
+                 └ <fastapi.dependencies.models.Dependant object at 0x000001D28836FAD0>
+
+  File "C:\Users\saura\ai-lifeos\ai-lifeos-backend\app\routers\notes.py", line 21, in create_note
+    doc = NoteDoc(
+          └ <class 'app.models.mongo_models.NoteDoc'>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+    │                 │                      │               │                   └ NoteDoc()
+    │                 │                      │               └ {'title': 'string', 'content': 'string', 'summary': '', 'tags': []}
+    │                 │                      └ <method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>
+    │                 └ SchemaValidator(title="NoteDoc", validator=Model(
+    │                       ModelValidator {
+    │                           revalidate: Never,
+    │                           validator: ModelFie...
+    └ NoteDoc()
+
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'string', 'cont...ummary': '', 'tags': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-22T19:42:05.370999+0530 | ERROR | Gemini summarize_notes failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22T19:42:05.374008+0530 | ERROR | Unexpected Error: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'My Test Note',...tags': ['test', 'demo']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing | Path: http://localhost:8000/api/notes/create
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x000001D2821E0680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x000001D282323D70>
+         │    └ <function Command.invoke at 0x000001D2821E0360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x000001D282323D70>
+           │   │      │    └ <function main at 0x000001D2823B1620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x000001D2821DB560>
+           └ <click.core.Context object at 0x000001D282323D70>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x000001D2823B1620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x000001D28222AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x000001D2822728E0>
+    └ <uvicorn.server.Server object at 0x000001D28238BE90>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001D282272980>
+           │       │   └ <uvicorn.server.Server object at 0x000001D28238BE90>
+           │       └ <function run at 0x000001D281ABBD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001D282179C40>
+           │      └ <function Runner.run at 0x000001D281B5A520>
+           └ <asyncio.runners.Runner object at 0x000001D282174A40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001D281B58180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001D282174A40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001D281C23CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001D281B59EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001D281AB80E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D288488A60>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D288488A60>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D288488A60>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001D288488A60>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001D282233F80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001D282544DA0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001D282233F80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D288...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001D28836DAC0>
+          └ <fastapi.applications.FastAPI object at 0x000001D282544DA0>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001D2885EB4C0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001D28836DAC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001D2885EB4C0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001D28836E270>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001D28836DAF0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D2885EB380>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001D28836DA90>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001D28836E270>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D2885EB380>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x000001D28836CE90>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001D28836DA90>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D2885EB380>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x000001D2843EFF60>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001D2885EB380>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001D28837DD00>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x000001D288488B90>
+                     └ <function get_request_handler.<locals>.app at 0x000001D28837DBC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001D284415080>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'note': NoteCreate(title='My Test Note', content='This is a sample note created via Postman', tags=['test', 'demo'])}
+                 │         └ <function create_note at 0x000001D28836AC00>
+                 └ <fastapi.dependencies.models.Dependant object at 0x000001D28836FAD0>
+
+  File "C:\Users\saura\ai-lifeos\ai-lifeos-backend\app\routers\notes.py", line 21, in create_note
+    doc = NoteDoc(
+          └ <class 'app.models.mongo_models.NoteDoc'>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+    │                 │                      │               │                   └ NoteDoc()
+    │                 │                      │               └ {'title': 'My Test Note', 'content': 'This is a sample note created via Postman', 'summary': '', 'tags': ['test', 'demo']}
+    │                 │                      └ <method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>
+    │                 └ SchemaValidator(title="NoteDoc", validator=Model(
+    │                       ModelValidator {
+    │                           revalidate: Never,
+    │                           validator: ModelFie...
+    └ NoteDoc()
+
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'My Test Note',...tags': ['test', 'demo']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-22T19:49:50.967993+0530 | INFO | Config loaded successfully
+2025-10-22T19:54:06.974340+0530 | INFO | Config loaded successfully
+2025-10-22 at 19:58:11 | INFO | Config loaded successfully
+2025-10-22 at 19:59:38 | INFO | Config loaded successfully
+2025-10-22 at 20:00:44 | INFO | Config loaded successfully
+2025-10-22 at 20:00:46 | INFO | MongoDB connected successfully
+2025-10-22 at 20:03:00 | INFO | Config loaded successfully
+2025-10-22 at 20:03:01 | ERROR | ❌ MongoDB connection failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-10-22 at 20:05:07 | INFO | Config loaded successfully
+2025-10-22 at 20:05:07 | INFO | MongoDB connected successfully
+2025-10-22 at 20:06:17 | INFO | Config loaded successfully
+2025-10-22 at 20:06:18 | INFO | MongoDB connected successfully
+2025-10-22 at 20:06:19 | INFO | Starting up...
+2025-10-22 at 20:12:02 | ERROR | Gemini summarize_notes failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 at 20:12:02 | ERROR | Unexpected Error: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'My Test Note',...tags': ['test', 'demo']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing | Path: http://localhost:8000/api/notes/create
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x000001DDC3CF0680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x000001DDC3C860C0>
+         │    └ <function Command.invoke at 0x000001DDC3CF0360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x000001DDC3C860C0>
+           │   │      │    └ <function main at 0x000001DDC3EE1620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x000001DDC3CEB560>
+           └ <click.core.Context object at 0x000001DDC3C860C0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x000001DDC3EE1620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x000001DDC3D3AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x000001DDC3D928E0>
+    └ <uvicorn.server.Server object at 0x000001DDC3EBBDA0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001DDC3D92980>
+           │       │   └ <uvicorn.server.Server object at 0x000001DDC3EBBDA0>
+           │       └ <function run at 0x000001DDC35CBD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001DDC3C89C40>
+           │      └ <function Runner.run at 0x000001DDC366A520>
+           └ <asyncio.runners.Runner object at 0x000001DDC3EBBDD0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001DDC3668180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001DDC3EBBDD0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001DDC3733CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001DDC3669EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001DDC35C80E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001DDC9E7FB50>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001DDC9E7FB50>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001DDC9E7FB50>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001DDC9E7FB50>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001DDC36DC770>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001DDC9...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001DDC4084DA0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001DDC36DC770>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001DDC9...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001DDC9...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001DDC9E7DF40>
+          └ <fastapi.applications.FastAPI object at 0x000001DDC4084DA0>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001DDC9E7BC40>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001DDC9E7C860>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001DDC9E7DF40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001DDC9E7BC40>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001DDC9591130>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001DDC9E7C860>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001DDC9E7BEC0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001DDC9E7EB40>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001DDC9591130>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001DDC9E7BEC0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x000001DDC9E7CC50>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001DDC9E7EB40>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001DDC9E7BEC0>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x000001DDC5F2FF60>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000001DDC9E7BEC0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001D...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001DDC9E8DB20>
+          └ APIRoute(path='/api/notes/create', name='create_note', methods=['POST'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x000001DDC9EB62D0>
+                     └ <function get_request_handler.<locals>.app at 0x000001DDC9E8DBC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001DDC5F55080>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'note': NoteCreate(title='My Test Note', content='This is a sample note created via Postman', tags=['test', 'demo'])}
+                 │         └ <function create_note at 0x000001DDC9E7AB60>
+                 └ <fastapi.dependencies.models.Dependant object at 0x000001DDC9E7FB90>
+
+  File "C:\Users\saura\ai-lifeos\ai-lifeos-backend\app\routers\notes.py", line 21, in create_note
+    doc = NoteDoc(
+          └ <class 'app.models.mongo_models.NoteDoc'>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+    │                 │                      │               │                   └ NoteDoc()
+    │                 │                      │               └ {'title': 'My Test Note', 'content': 'This is a sample note created via Postman', 'summary': '', 'tags': ['test', 'demo']}
+    │                 │                      └ <method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>
+    │                 └ SchemaValidator(title="NoteDoc", validator=Model(
+    │                       ModelValidator {
+    │                           revalidate: Never,
+    │                           validator: ModelFie...
+    └ NoteDoc()
+
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NoteDoc
+created_at
+  Field required [type=missing, input_value={'title': 'My Test Note',...tags': ['test', 'demo']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-22 at 20:14:58 | INFO | Config loaded successfully
+2025-10-22 at 20:14:59 | INFO | MongoDB connected successfully
+2025-10-22 at 20:14:59 | INFO | Starting up...
+2025-10-22 at 20:15:31 | INFO | Inserted note: 68f8ee0a17f8bd9714dff2d8
+2025-10-22 at 20:17:33 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/notes/
+2025-10-22 at 20:17:45 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/notes/
+2025-10-22 at 20:18:49 | ERROR | Unexpected Error: Unable to serialize unknown type: <class 'bson.objectid.ObjectId'> | Path: http://localhost:8000/api/notes/
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x0000010D27C40680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x0000010D257C5E80>
+         │    └ <function Command.invoke at 0x0000010D27C40360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x0000010D257C5E80>
+           │   │      │    └ <function main at 0x0000010D27E41620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x0000010D27C3B560>
+           └ <click.core.Context object at 0x0000010D257C5E80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x0000010D27E41620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x0000010D27C8AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x0000010D27CF28E0>
+    └ <uvicorn.server.Server object at 0x0000010D27E1BC80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000010D27CF2980>
+           │       │   └ <uvicorn.server.Server object at 0x0000010D27E1BC80>
+           │       └ <function run at 0x0000010D2750BD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000010D27BD9C40>
+           │      └ <function Runner.run at 0x0000010D275AA520>
+           └ <asyncio.runners.Runner object at 0x0000010D27E1BB30>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000010D275A8180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000010D27E1BB30>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000010D27673CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000010D275A9EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000010D275080E0>
+    └ <Handle Task.task_wakeup(<Future finis...rect.', ...}]>)>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...rect.', ...}]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...rect.', ...}]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...rect.', ...}]>)>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x0000010D27C61D30>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010D2D...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x0000010D27FE4E60>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x0000010D27C61D30>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010D2D...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010D2D...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x0000010D2DDEE0C0>
+          └ <fastapi.applications.FastAPI object at 0x0000010D27FE4E60>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x0000010D2DDEBC40>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x0000010D2DDEEDE0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x0000010D2DDEE0C0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x0000010D2DDEBC40>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000010D2DDEE000>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x0000010D2DDEEDE0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000010D2DDB0680>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x0000010D2DDEE060>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000010D2DDEE000>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000010D2DDB0680>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x0000010D2DDED070>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x0000010D2DDEE060>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000010D2DDB0680>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x0000010D29E8FF60>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000010D2DDB0680>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000010...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x0000010D2DE01120>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x0000010D2DF90680>
+                     └ <function get_request_handler.<locals>.app at 0x0000010D2DE01300>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 292, in app
+    content = await serialize_response(
+                    └ <function serialize_response at 0x0000010D29E8E480>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 160, in serialize_response
+    return field.serialize(
+           │     └ <function ModelField.serialize at 0x0000010D28B419E0>
+           └ ModelField(field_info=FieldInfo(annotation=NoteListResponse, required=True), name='Response_get_notes_api_notes__get', mode='...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\_compat.py", line 147, in serialize
+    return self._type_adapter.dump_python(
+           │    │             └ <function TypeAdapter.dump_python at 0x0000010D28B41440>
+           │    └ <pydantic.type_adapter.TypeAdapter object at 0x0000010D2DDED340>
+           └ ModelField(field_info=FieldInfo(annotation=NoteListResponse, required=True), name='Response_get_notes_api_notes__get', mode='...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\type_adapter.py", line 314, in dump_python
+    return self.serializer.to_python(
+           │    │          └ <method 'to_python' of 'pydantic_core._pydantic_core.SchemaSerializer' objects>
+           │    └ SchemaSerializer(serializer=Model(
+           │          ModelSerializer {
+           │              class: Py(
+           │                  0x0000010d2c7f0d40,
+           │              ),
+           │            ...
+           └ <pydantic.type_adapter.TypeAdapter object at 0x0000010D2DDED340>
+
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'bson.objectid.ObjectId'>
+2025-10-22 at 20:20:51 | INFO | Config loaded successfully
+2025-10-22 at 20:20:52 | INFO | MongoDB connected successfully
+2025-10-22 at 20:20:53 | INFO | Starting up...
+2025-10-22 at 20:20:59 | ERROR | Unexpected Error: 'DBService' object has no attribute 'get_all_notes' | Path: http://localhost:8000/api/notes/
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x00000284B6820680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x00000284B4395E80>
+         │    └ <function Command.invoke at 0x00000284B6820360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x00000284B4395E80>
+           │   │      │    └ <function main at 0x00000284B6A21620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x00000284B681B560>
+           └ <click.core.Context object at 0x00000284B4395E80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x00000284B6A21620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x00000284B686AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x00000284B68D28E0>
+    └ <uvicorn.server.Server object at 0x00000284B6842540>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000284B68D2980>
+           │       │   └ <uvicorn.server.Server object at 0x00000284B6842540>
+           │       └ <function run at 0x00000284B60ABD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000284B67B9C40>
+           │      └ <function Runner.run at 0x00000284B615A520>
+           └ <asyncio.runners.Runner object at 0x00000284B67B6150>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000284B6158180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000284B67B6150>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000284B6223CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000284B6159EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000284B60A80E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA55CF0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA55CF0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA55CF0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA55CF0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x00000284B690BF80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x00000284B6BC0EC0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x00000284B690BF80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x00000284BCA55340>
+          └ <fastapi.applications.FastAPI object at 0x00000284B6BC0EC0>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x00000284B6A20680>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x00000284BCA55280>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x00000284BCA55340>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x00000284B6A20680>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000284BCA552E0>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x00000284BCA55280>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AA20>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000284BCA552B0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000284BCA552E0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AA20>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x00000284BCA1CA70>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000284BCA552B0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AA20>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x00000284B8A6FF60>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AA20>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000284BCA39D00>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x00000284BCA55EB0>
+                     └ <function get_request_handler.<locals>.app at 0x00000284BCA39BC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000284B8A95080>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {}
+                 │         └ <function get_notes at 0x00000284BCA1AAC0>
+                 └ <fastapi.dependencies.models.Dependant object at 0x00000284BCA1F800>
+
+  File "C:\Users\saura\ai-lifeos\ai-lifeos-backend\app\routers\notes.py", line 17, in get_notes
+    notes = await db_service.get_all_notes()
+                  └ <app.services.db_service.DBService object at 0x00000284BAC39D60>
+
+AttributeError: 'DBService' object has no attribute 'get_all_notes'. Did you mean: 'get_notes'?
+2025-10-22 at 20:21:00 | ERROR | Unexpected Error: 'DBService' object has no attribute 'get_all_notes' | Path: http://localhost:8000/api/notes/
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Scripts\uvicorn.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+    │   │    └ <Command main>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function Command.main at 0x00000284B6820680>
+           └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x00000284B4395E80>
+         │    └ <function Command.invoke at 0x00000284B6820360>
+         └ <Command main>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │   │      │    │           └ <click.core.Context object at 0x00000284B4395E80>
+           │   │      │    └ <function main at 0x00000284B6A21620>
+           │   │      └ <Command main>
+           │   └ <function Context.invoke at 0x00000284B681B560>
+           └ <click.core.Context object at 0x00000284B4395E80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\click\core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'host': '0.0.0.0', 'port': 8000, 'app': 'app.main:app', 'uds': None, 'fd': None, 'reload': False, 'reload_dirs': (), 'reload...
+           │         └ ()
+           └ <function main at 0x00000284B6A21620>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 416, in main
+    run(
+    └ <function run at 0x00000284B686AC00>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\main.py", line 587, in run
+    server.run()
+    │      └ <function Server.run at 0x00000284B68D28E0>
+    └ <uvicorn.server.Server object at 0x00000284B6842540>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000284B68D2980>
+           │       │   └ <uvicorn.server.Server object at 0x00000284B6842540>
+           │       └ <function run at 0x00000284B60ABD80>
+           └ <module 'asyncio' from 'C:\\Users\\saura\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000284B67B9C40>
+           │      └ <function Runner.run at 0x00000284B615A520>
+           └ <asyncio.runners.Runner object at 0x00000284B67B6150>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-p...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000284B6158180>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000284B67B6150>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 673, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000284B6223CE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 640, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000284B6159EE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1992, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000284B60A80E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA1C5E0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA1C5E0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA1C5E0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000284BCA1C5E0>()>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x00000284B690BF80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x00000284B6BC0EC0>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x00000284B690BF80>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x00000284BC...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x00000284BCA55340>
+          └ <fastapi.applications.FastAPI object at 0x00000284B6BC0EC0>
+> File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x00000284BCA3A980>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x00000284BCA55280>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x00000284BCA55340>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x00000284BCA3A980>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000284BCA552E0>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x00000284BCA55280>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AC00>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000284BCA552B0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000284BCA552E0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AC00>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x00000284BCA1CA70>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000284BCA552B0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AC00>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x00000284B8A6FF60>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x00000284BCA3AC00>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x0000028...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000284BCA39D00>
+          └ APIRoute(path='/api/notes/', name='get_notes', methods=['GET'])
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x00000284BCA1C740>
+                     └ <function get_request_handler.<locals>.app at 0x00000284BCA39BC0>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000284B8A95080>
+  File "C:\Users\saura\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {}
+                 │         └ <function get_notes at 0x00000284BCA1AAC0>
+                 └ <fastapi.dependencies.models.Dependant object at 0x00000284BCA1F800>
+
+  File "C:\Users\saura\ai-lifeos\ai-lifeos-backend\app\routers\notes.py", line 17, in get_notes
+    notes = await db_service.get_all_notes()
+                  └ <app.services.db_service.DBService object at 0x00000284BAC39D60>
+
+AttributeError: 'DBService' object has no attribute 'get_all_notes'. Did you mean: 'get_notes'?
+2025-10-22 at 20:26:13 | INFO | Config loaded successfully
+2025-10-22 at 20:26:14 | INFO | MongoDB connected successfully
+2025-10-22 at 20:26:15 | INFO | Starting up...
+2025-10-22 at 20:29:45 | ERROR | HTTP Error: Method Not Allowed | Path: http://127.0.0.1:8000/api/notes/
+2025-10-22 at 20:29:50 | ERROR | HTTP Error: Method Not Allowed | Path: http://127.0.0.1:8000/api/notes/
+2025-10-22 at 20:30:29 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/notes/{note_id}
+2025-10-22 at 20:31:03 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/tasks/
+2025-10-22 at 20:31:10 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/tasks/
+2025-10-22 at 20:32:00 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/tasks/
+2025-10-22 at 20:34:43 | INFO | Config loaded successfully
+2025-10-22 at 20:34:49 | INFO | MongoDB connected successfully
+2025-10-22 at 20:44:57 | INFO | Starting up...
+2025-10-22 at 20:46:35 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/tasks/
+2025-10-22 at 20:47:15 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/tasks/
+2025-10-22 at 20:49:58 | ERROR | HTTP Error: Method Not Allowed | Path: http://127.0.0.1:8000/api/notes/
+2025-10-22 at 20:52:04 | ERROR | HTTP Error: Method Not Allowed | Path: http://127.0.0.1:8000/api/notes/
+2025-10-22 at 20:54:57 | WARNING | Redis cache read failed: Error 22 connecting to localhost:6379. 22.
+2025-10-22 at 20:55:03 | WARNING | Redis cache write failed: Error 22 connecting to localhost:6379. 22.
+2025-10-22 at 20:55:04 | INFO | Inserted task: 68f8f74f395c48c7539a2e34
+2025-10-22 at 20:56:44 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/api/notes/68f8ee0a17f8bd9714dff2d8
+2025-10-22 at 21:01:58 | INFO | Starting up...
+2025-10-22 at 21:06:12 | ERROR | HTTP Error: Method Not Allowed | Path: http://127.0.0.1:8000/api/notes/68f8ee0a17f8bd9714dff2d8
+2025-10-22 at 21:06:52 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/learning/suggest
+2025-10-22 at 21:08:36 | ERROR | Failed to update note 68f8ee0a17f8bd9714dff2d8: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2025-10-22 at 21:09:49 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/learning/suggest
+2025-10-22 at 21:10:01 | INFO | Closing MongoDB connection...
+2025-10-22 at 21:10:01 | INFO | Shutting down...
+2025-10-22 at 21:10:18 | INFO | Starting up...
+2025-10-22 at 21:11:36 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/learning/suggest
+2025-10-22 at 21:13:51 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/learning/suggest
+2025-10-22 at 21:14:00 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/suggest
+2025-10-22 at 21:14:12 | ERROR | HTTP Error: Not Found | Path: http://localhost:8000/api/learning/suggest
+2025-10-22 at 21:18:19 | INFO | Starting up...
+2025-10-22 at 21:19:41 | ERROR | Gemini generate_learning_suggestion failed: 504 The request timed out. Please try again.
+2025-10-22 at 21:21:00 | ERROR | Gemini generate_learning_suggestion failed: Timeout of 60.0s exceeded, last exception: 503 The model is overloaded. Please try again later.
+2025-10-22 at 21:22:23 | ERROR | HTTP Error: Method Not Allowed | Path: http://localhost:8000/api/tasks/
+2025-10-22 at 21:31:18 | ERROR | Gemini generate_learning_suggestion failed: 504 Deadline Exceeded
+2025-10-22 at 21:32:48 | ERROR | Gemini generate_learning_suggestion failed: 504 The request timed out. Please try again.
+2025-10-22 at 21:49:00 | WARNING | Redis cache read failed: Error 22 connecting to localhost:6379. 22.
+2025-10-22 at 21:49:08 | WARNING | Redis cache write failed: Error 22 connecting to localhost:6379. 22.
+2025-10-22 at 21:49:10 | INFO | Inserted task: 68f903fc67fbb51ff12c957b
+2025-10-22 at 21:51:10 | ERROR | HTTP Error: Method Not Allowed | Path: http://localhost:8000/api/tasks/68f903fc67fbb51ff12c957b
+2025-10-22 at 21:56:14 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/learning
+2025-10-22 at 21:59:13 | ERROR | Gemini generate_learning_suggestion failed: 504 The request timed out. Please try again.
+2025-10-22 at 21:59:58 | INFO | Starting up...
+2025-10-22 at 21:59:58 | INFO | Closing MongoDB connection...
+2025-10-22 at 21:59:58 | INFO | Shutting down...
+2025-10-22 at 22:00:14 | INFO | Starting up...
+2025-10-22 at 22:35:08 | INFO | Starting up...
+2025-10-22 at 23:19:58 | INFO | Starting up...
+2025-10-22 at 23:20:30 | INFO | Extracted 3 resources from response
+2025-10-22 at 23:20:43 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000//www.youtube.com/watch?v=SqrbI0vn1kM
+2025-10-22 at 23:20:44 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/favicon.ico
+2025-10-22 at 23:20:44 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000//www.youtube.com/www.youtube.com
+2025-10-22 at 23:20:52 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/youtubei/v1/player
+2025-10-22 at 23:20:54 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/youtubei/v1/player
+2025-10-22 at 23:23:22 | INFO | Extracted 3 resources from response
+2025-10-22 at 23:24:58 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000//www.youtube.com/watch?v=OT3N7nQJ9lQ
+2025-10-22 at 23:24:59 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000//www.youtube.com/www.youtube.com
+2025-10-22 at 23:25:07 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/youtubei/v1/player
+2025-10-22 at 23:25:09 | ERROR | HTTP Error: Not Found | Path: http://127.0.0.1:8000/youtubei/v1/player
+2025-10-22 at 23:28:05 | INFO | Extracted 3 resources from response
+2025-10-23 at 00:03:53 | INFO | Extracted 3 resources from response
