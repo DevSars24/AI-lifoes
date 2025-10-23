@@ -1,0 +1,12 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+motor==3.3.2  # Async MongoDB
+pydantic==2.5.0
+python-dotenv==1.0.0
+httpx==0.25.2  # For async HTTP calls
+google-cloud-texttospeech==2.15.1  # Google TTS
+google-generativeai==0.3.2  # Gemini API
+redis==5.0.1  # Caching
+loguru==0.7.2  # Simple logging
+pytest==7.4.3  # Testing
+assemblyai==0.18.0  # AssemblyAI SDK
