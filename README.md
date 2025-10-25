@@ -9,6 +9,7 @@
 
 AI LifeOS is a modern, scalable backend API for an AI-powered personal productivity and learning system. It integrates speech-to-text transcription (via AssemblyAI), AI-driven learning suggestions (via Google Gemini), task management, and note-taking with MongoDB persistence and Redis caching. Built with FastAPI for high-performance async APIs, it supports JWT authentication, background tasks, and production deployment via Docker.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Features
 
 - **Speech Transcription**: Upload audio files and get real-time transcripts with confidence scores.
